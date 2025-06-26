@@ -5,6 +5,12 @@
   gz_type_name: "ignition.msgs.LaserScan" # In future, this will be gz.msgs.Model
   direction: GZ_TO_ROS
 
+- ros_topic_name: "/overhead_camera"
+  gz_topic_name: "overhead_camera"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "ignition.msgs.Image" # In future, this will be gz.msgs.Model
+  direction: GZ_TO_ROS
+
 # gz topic subscribed by the JointPositionController plugin
 #- ros_topic_name: "arx_v5/joint1/cmd_pos"
 #  gz_topic_name: "model/arx_v5/joint/joint1/0/cmd_pos"

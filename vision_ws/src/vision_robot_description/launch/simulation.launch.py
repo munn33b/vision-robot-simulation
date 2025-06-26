@@ -55,7 +55,7 @@ def generate_launch_description():
     world_file = os.path.join(
         get_package_share_directory('vision_robot_description'),
         'worlds',
-        'empty_world.sdf'
+        'simulation_world_new.sdf'
     )
 
     robot_controllers = PathJoinSubstitution(
